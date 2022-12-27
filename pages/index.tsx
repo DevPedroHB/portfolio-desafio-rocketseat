@@ -49,11 +49,9 @@ export const getServerSideProps = async () => {
   const [profile, repos, issues] = await Promise.all([
     api.get("users/DevPedroHB"),
     api.get("users/DevPedroHB/repos"),
-    api.get(
-      "search/issues?q=state:open&page=1&per_page=5&sort=created&order=desc"
-    ),
+    api.get("search/issues?q=state:open&sort=created&order=desc"),
     // api.get(
-    //   "search/issues?q=state:open+author:DevPedroHB&page=1&per_page=5&sort=created&order=desc"
+    //   "search/issues?q=state:open+author:DevPedroHB&sort=created&order=desc"
     // ),
   ]);
 

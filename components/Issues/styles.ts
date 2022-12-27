@@ -8,6 +8,10 @@ export const IssuesBody = styled.div`
   img {
     border-radius: 50%;
   }
+
+  a:hover {
+    text-decoration: none;
+  }
 `;
 
 export const CardBody = styled.div`

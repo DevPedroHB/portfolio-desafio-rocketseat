@@ -9,6 +9,7 @@ declare module "styled-components" {
       textColor: string;
       textColorAlt: string;
       bgCards: string;
+      bgCardsAlt: string;
       bgTechs: string;
       bgTechsAlt: string;
       scrollBarColor: string;

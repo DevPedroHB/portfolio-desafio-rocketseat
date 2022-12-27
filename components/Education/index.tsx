@@ -8,24 +8,14 @@ export function Education() {
       <CardBody>
         <ExperienceList>
           <ExperienceItem>
-            <h3>Recursos Humanos</h3>
-            <small>2019 - 2021</small>
-            <p>Instituto Avanza</p>
+            <h3>Técnico em Informática</h3>
+            <small>Jun de 2018 - Dez de 2020</small>
+            <p>FIEC - Fundação Indaiatubana de Educação e Cultura</p>
           </ExperienceItem>
           <ExperienceItem>
-            <h3>Recursos Humanos</h3>
-            <small>2019 - 2021</small>
-            <p>Instituto Avanza</p>
-          </ExperienceItem>
-          <ExperienceItem>
-            <h3>Recursos Humanos</h3>
-            <small>2019 - 2021</small>
-            <p>Instituto Avanza</p>
-          </ExperienceItem>
-          <ExperienceItem>
-            <h3>Recursos Humanos</h3>
-            <small>2019 - 2021</small>
-            <p>Instituto Avanza</p>
+            <h3>Gestão Empresarial, Recursos Humanos, Marketing, Logística</h3>
+            <small>Mar de 2018 - Mar de 2019</small>
+            <p>Instituto Avanza - Educação</p>
           </ExperienceItem>
         </ExperienceList>
       </CardBody>

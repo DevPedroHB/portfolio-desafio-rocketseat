@@ -10,7 +10,7 @@ import Projects from "../components/Projects";
 import { SectionTitle } from "../components/SectionTitle";
 import Technologies from "../components/Technologies";
 import { api } from "../services/axios";
-import { Column, Main, Section } from "./styles";
+import { Column, Main, Section } from "../styles/styles";
 
 interface IndexProps {
   profile: ProfileProps;

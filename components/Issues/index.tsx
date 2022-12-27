@@ -15,8 +15,6 @@ import {
   Title,
 } from "./styles";
 
-moment.locale("pt-BR");
-
 interface CardIssuesProps {
   issues: IssuesProps[];
 }
@@ -39,7 +37,9 @@ export function Issues({ issues }: CardIssuesProps) {
               <CardData>
                 <Title>
                   <p>{issue.title}</p>
-                  <small>{moment(issue.created_at).fromNow()}</small>
+                  <small>
+                    {moment(issue.created_at).locale("pt-BR").fromNow()}
+                  </small>
                 </Title>
                 <Description>
                   <span>{issue.title}</span>

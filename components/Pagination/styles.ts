@@ -7,14 +7,16 @@ export const PaginateBody = styled.div`
 
   ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.75rem;
+    row-gap: 10rem;
 
     li {
       list-style: none;
 
       a {
+        font-size: var(--small-font-size);
         cursor: pointer;
-        width: max-content;
         background-color: ${(props) => props.theme.colors.bgCards};
         border-radius: 1.25rem;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -27,6 +29,18 @@ export const PaginateBody = styled.div`
 
         &.active__page {
           background-color: ${(props) => props.theme.colors.bgCardsAlt};
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    ul {
+      gap: 0.5rem;
+
+      li {
+        a {
+          font-size: var(--smaller-font-size);
         }
       }
     }

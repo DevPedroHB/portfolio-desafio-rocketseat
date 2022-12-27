@@ -17,6 +17,14 @@ export const IssuesBody = styled.div`
 export const CardBody = styled.div`
   display: flex;
   gap: 2rem;
+
+  @media screen and (max-width: 468px) {
+    flex-direction: column;
+
+    img {
+      margin: 0 auto;
+    }
+  }
 `;
 
 export const CardData = styled.div`

@@ -28,11 +28,10 @@ export function Pagination({ data, items, setCurrentItems }: PaginationProps) {
     <PaginateBody>
       <ReactPaginate
         breakLabel="..."
-        nextLabel="Próxima página »"
+        nextLabel="»"
         onPageChange={handlePageClick}
-        pageRangeDisplayed={3}
         pageCount={pageCount}
-        previousLabel="« Página anterior"
+        previousLabel="«"
         renderOnZeroPageCount={() => null}
         activeLinkClassName="active__page"
       />

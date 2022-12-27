@@ -12,6 +12,10 @@ export const ProjectsBody = styled.div`
       text-decoration: none;
     }
   }
+
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const CardTitle = styled.div`

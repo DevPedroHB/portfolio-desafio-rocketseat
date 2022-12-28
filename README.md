@@ -111,5 +111,5 @@ This project is licensed under the MIT license.
 
 ---
 
-Feito com ♥ by Pedro Henrique 🚀 [Never stop learning!](https://github.com/DevPedroHB)
+Made with ♥ by Pedro Henrique 🚀 [Never stop learning!](https://github.com/DevPedroHB)
   
